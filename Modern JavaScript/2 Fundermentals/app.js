@@ -1,7 +1,5 @@
-//var Variables
-
 var learning ='JavaScript Varaible';
-var learning_2 ="JavaScript Naming "
+var learning_2 ="JavaScript Naming ";
 var day99= 99;
 
 console.log(day99);
@@ -44,3 +42,52 @@ console.log(Name2);
 console.log(Name1);
 console.log(Name3);
 console.log(area);
+
+////Uing Let and Const
+
+let name= 'Ben Okello Mwaka'; //setting the name variable
+
+name="Okello Mwaka"; // overiting the name vairable
+//the code above overite the vairable name
+console.log(name);
+
+
+let apha;   ///defining the variable without a constant
+apha="A Lion is an Aplha"// assing to defined variable
+
+console.log(apha);
+
+
+//defining Multiple variables
+let product1='book',
+    product2,   // undefined varable declared
+    product3='Shoe';
+
+    product2='bag'; //assingng content to variable
+
+    console.log(product1);
+    console.log(product3);
+    console.log(product2);
+
+
+    //Using a varaible to hold arrays of Elements
+let ShoppingChart=['Product 1','Product 2','Product 3','Product 4']
+console.log(ShoppingChart);
+
+
+//Const Varable
+//Once assinged the Value does not Change or be reassigned
+
+const Mylocation= "Earth";
+console.log(Mylocation);
+//Cosnt can hold Boolean and Arrays also
+
+const Myresult = true;   //boolean
+console.log(Myresult);
+
+const arrayConst=['Arra1','array2','Array3',4]; // Array const
+console.log(arrayConst);
+
+const objectConst = {yourContact:'0773951173'}; //Holding an object in a Const
+console.log(objectConst);
+
