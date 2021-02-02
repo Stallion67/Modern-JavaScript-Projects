@@ -29,7 +29,6 @@ if (output6>0){
 }
 
 //Substring to Trim text
-
 let output7=Leaerning.substring(0,8); //From Begining
 let output8=Leaerning.substring(4,8); //From 4th Character
 
@@ -45,9 +44,7 @@ let output12=Leaerning.split(" ");
 //eXAMPLE USING SLIPP
 
 let hobbies ="read, Walk, Listen to Music, Luagh,learn, write a program"
-
 let output13=hobbies.split(",");
-
 
 //Replace
 let output14 = Leaerning.replace("Javascript","Mordern JavaScript"); //Replaces Text
